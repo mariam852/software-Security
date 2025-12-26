@@ -1,0 +1,196 @@
+/* --- Global Styles & Layout --- */
+.blog-page-container {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content-wrapper {
+  padding-top: 20px;
+}
+
+/* --- Header/Top Bar --- */
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 3px solid #ff6600; /* Orange line */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo-brace {
+  /* Placeholder for the {} style in the original image */
+  margin-left: 5px;
+  color: #ff6600;
+  font-size: 30px;
+  line-height: 0.5;
+}
+
+.lab-status {
+  display: flex;
+  align-items: center;
+  background-color: #e0f2e0; /* Light green background */
+  border: 1px solid #00aa00;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #008800;
+}
+
+.lab-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.lab-icon {
+  /* Placeholder for the checkmark/cross icon */
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #008800;
+  border-radius: 50%;
+}
+
+/* --- Navigation & Post Content --- */
+.nav-home {
+  text-align: right;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #5d3587; /* Purple color for titles */
+}
+
+.post-description {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  margin: 40px 0;
+  letter-spacing: 5px;
+  color: #333;
+}
+
+.post-description span {
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+.post-image-container {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.post-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px; /* Optional: adds a slight curve to the corners */
+}
+
+/* --- Comments Section --- */
+.comments-heading,
+.section-title {
+  color: #5d3587; /* Purple */
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.comment {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.comment-icon {
+  margin-right: 5px;
+}
+
+.comment-author {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.comment-date {
+  color: #777;
+}
+
+.comment-text {
+  margin-left: 20px;
+  line-height: 1.5;
+}
+
+
+/* --- Comment Form --- */
+.comment-form-section {
+  padding-top: 40px;
+}
+
+.comment-form .form-group {
+  margin-bottom: 15px;
+}
+
+.comment-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-form textarea,
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Important for padding/border calculation */
+}
+
+.comment-form textarea {
+  resize: vertical;
+}
+
+.post-comment-button {
+  background-color: #5d3587; /* Purple button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.post-comment-button:hover {
+  background-color: #4c2c6d;
+}
+
+.back-to-blog {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5d3587; /* Purple */
+    text-decoration: none;
+}

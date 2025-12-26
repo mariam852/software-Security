@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#fffaf0"/>
+  <rect x="40" y="40" width="720" height="200" rx="8" fill="#9370db"/>
+  <text x="60" y="120" fill="#fff" font-size="36" font-family="Arial, Helvetica, sans-serif">Keeping the web secure</text>
+  <rect x="40" y="280" width="720" height="140" rx="8" fill="#fff" stroke="#e6e6e6"/>
+  <text x="60" y="350" fill="#333" font-size="20">Notes on secure defaults</text>
+</svg>

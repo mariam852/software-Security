@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f4f7ff"/>
+  <rect x="30" y="30" width="740" height="120" rx="10" fill="#9370db"/>
+  <text x="60" y="95" fill="#fff" font-size="28" font-family="Arial, Helvetica, sans-serif">Reflected XSS — Danger Zone</text>
+  <g opacity="0.9">
+    <rect x="40" y="170" width="240" height="90" rx="8" fill="#fff" stroke="#e6e6e6"/>
+    <text x="60" y="215" fill="#333" font-size="16">Reflected content may appear here</text>
+  </g>
+</svg>
